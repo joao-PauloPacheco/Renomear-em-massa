@@ -15,7 +15,7 @@ text = ""
 
 #separação de diretório(pasta chamada "teste" na área de trabalho)
 get_curr = getcwd()
-directory = r'C:/Users/User/OneDrive - Probo Contabilidade/Área de Trabalho/renomear/'
+directory = r'./renomear/'
 chdir(directory)
 pdf_list = glob('*.pdf')
 
