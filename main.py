@@ -13,7 +13,7 @@ cr_regex_tipo2 = r'(?<=SECRETARIA DE FINANÇAS)[\r\n](.+)'
 text = ""
 
 
-#separação de diretório(pasta chamada "teste" na área de trabalho)
+#separação de diretório(pasta chamada "renomear" na pasta do código)
 get_curr = getcwd()
 directory = r'./renomear/'
 chdir(directory)
